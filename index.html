@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NER Landslide AI</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HEADER -->
+        <header>
+            <h1>🌍 NER Landslide AI</h1>
+            <p>AI Based Early Warning & Landslide Risk Monitoring</p>
+        </header>
+
+
+        <!-- UPLOAD CARD -->
+        <div class="card">
+
+            <div class="upload-box">
+
+                <h2>📷 Upload Terrain Image</h2>
+
+                <p>
+                    Upload a landslide or terrain image
+                    for AI-based risk analysis.
+                </p>
+
+                <input
+                    type="file"
+                    id="imageInput"
+                    accept="image/*"
+                >
+
+                <!-- IMAGE PREVIEW -->
+                <img
+                    id="preview"
+                    alt="Terrain Image Preview"
+                >
+
+                <br>
+
+                <button id="analyzeBtn">
+                    ANALYZE WITH AI
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- RESULT CARD -->
+        <div id="result" class="card result">
+
+            <h2>🌍 AI Prediction</h2>
+
+            <!-- PREDICTION -->
+            <div
+                id="prediction"
+                class="prediction">
+            </div>
+
+            <!-- CONFIDENCE -->
+            <div
+                id="confidence"
+                class="confidence">
+            </div>
+
+            <!-- RISK -->
+            <div
+                id="risk"
+                class="risk">
+            </div>
+
+            <!-- WARNING -->
+            <div
+                id="warning"
+                class="warning">
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer>
+            <p>
+                NER Landslide AI • Early Warning System
+            </p>
+        </footer>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+<!-- RISK MONITORING -->
+<div class="card">
+
+    <h2>📊 Risk Monitoring</h2>
+
+    <div class="monitor-grid">
+
+        <div class="monitor-box">
+            <span>🛰️ Terrain Analysis</span>
+            <strong>AI Enabled</strong>
+        </div>
+
+        <div class="monitor-box">
+            <span>⚠️ Hazard Detection</span>
+            <strong>Active</strong>
+        </div>
+
+        <div class="monitor-box">
+            <span>🌧️ Environmental Risk</span>
+            <strong>Monitoring</strong>
+        </div>
+
+    </div>
+
+</div>
+
+</html>

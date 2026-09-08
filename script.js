@@ -81,15 +81,12 @@ analyzeBtn.addEventListener("click", async function () {
 
         }
 
-    } catch (error) {
+   } catch (error) {
 
-        alert(
-            "AI analysis failed. Make sure Flask server is running."
-        );
+    alert("AI analysis failed: " + error.message);
 
-        console.error(error);
-
-    }
+    console.error(error);
+}
 
     analyzeBtn.innerText = "ANALYZE WITH AI";
     analyzeBtn.disabled = false;

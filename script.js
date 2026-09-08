@@ -39,7 +39,7 @@ analyzeBtn.addEventListener("click", async function () {
     try {
 
         const response = await fetch(
-            "https://ner-landslide-backend-1.onrender.com/predict",
+           "https://ner-landslide-backend-cr6k.onrender.com/predict"
             {
                 method: "POST",
                 body: formData
